@@ -1,0 +1,19 @@
+/************************* BASISINSTELLINGEN *************************/
+
+/* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
+
+* {                               /* geldt voor alles */
+  box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;                    /* standaard marge 0 pixels */
+}
+
+html, body {                      /* geldt voor html en body */
+  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  color: #303030;               /* tekstkleur donkergrijs */
+}  
+
+div {                             /* geldt voor div */
+  overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
+                                     (anders tellen de floats erin niet mee voor de hoogte
+                                     en wordt dus wel eens hoogte 0) */
+}
