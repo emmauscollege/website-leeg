@@ -10,10 +10,4 @@
 html, body {                      /* geldt voor html en body */
   background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
-}  
-
-div {                             /* geldt voor div */
-  overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
-                                     (anders tellen de floats erin niet mee voor de hoogte
-                                     en wordt dus wel eens hoogte 0) */
 }
